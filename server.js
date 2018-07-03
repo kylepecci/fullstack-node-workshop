@@ -55,8 +55,11 @@ app.get("/insult", function(req, res){
 
 app.use("/public", express.static("./public"));
 
-app.listen(3000);
-console.log("listening on http://localhost:3000");
+var port = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", function(){
+    console.log("listening on Port 3000");
+
+});
 
 
 /////// Creating basic server \\\\\\\\
