@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+}
+
+.compliment {
+  text-align: center;
+  font-size: 30px;
+}
+
+.insult {
+  text-align: center;
+  font-size: 30px;
+}
+
+.request-compliment {
+  font-size: 15px;
+  border-radius: 5px;
+  /* position: relative; */
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.request-insult {
+  font-size: 15px;
+  border-radius: 5px;
+  /* position: relative; */
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
