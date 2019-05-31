@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <title>Compliments</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Compliments</h1>
     <div class="back">
-        <div>
-            <p class="compliment">none loaded yet</p>
-            <button class="request-compliment">Request New Compliment</button>
-        </div>
-        <div>
-            <p class="insult">none loaded yet</p>
-            <button class="request-insult">Request New Insult</button>
-        </div>
-    </div>
+      <div>
+        <p class="compliment">none loaded yet</p>
+        <button class="request-compliment">Request New Compliment</button>
+      </div>
+      <div>
+        <p class="insult">none loaded yet</p>
+        <button class="request-insult">Request New Insult</button>
+        <script>
+            navigator.geolocation.getCurrentPosition((pos) => {console.log(pos)})
+        </script>
+
     <script src="./public/compliments.js"></script>
     <script src="./public/insults.js"></script>
-</body>
-
+  </body>
 </html>
