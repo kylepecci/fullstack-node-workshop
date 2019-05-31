@@ -16,7 +16,11 @@
         <p class="insult">none loaded yet</p>
         <button class="request-insult">Request New Insult</button>
         <script>
-            navigator.geolocation.getCurrentPosition((pos) => {console.log(pos)})
+            navigator.geolocation.getCurrentPosition(
+                (pos) => {
+                    window.alert(pos.coords.latitude + ", " + pos.coords.longitude)
+                    // console.log(pos)
+        })
         </script>
 
     <script src="./public/compliments.js"></script>
